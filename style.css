@@ -1,0 +1,100 @@
+/* GENERAL STYLES */
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* background-color: rgb(244, 251, 251); */
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.container {
+  width: 1155px;
+  margin: 0 auto;
+}
+
+/* HEADER STYLES */
+
+header {
+  background-color: white;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  /* MENU L1 */
+  nav > ul > li {
+    position: relative;
+    margin-left: 7px;
+
+    > a {
+      padding: 7px;
+    }
+
+    > a:hover {
+      color: #8490ff;
+    }
+
+    /* > a:visited{
+            color: #8490ff;
+        } */
+  }
+
+  nav > ul > li:hover > ul {
+    display: flex;
+  }
+
+  /* MENU L2 */
+
+  nav > ul > li > ul {
+    position: absolute;
+    right: 0;
+    top: 177%;
+    width: max-content;
+    display: none;
+    flex-direction: column;
+    padding: 5px;
+
+    > li > a {
+      padding: 10px 98px 10px 15px;
+    }
+  }
+
+  nav > ul > li > ul > #level-item:hover {
+    display: flex;
+  }
+
+  /* MENU L3 */
+
+  nav > ul > li > ul > li > ul {
+    position: absolute;
+    right: 0;
+    top: 177%;
+    width: max-content;
+    display: none;
+    flex-direction: column;
+    padding: 5px;
+
+    > li > a {
+      padding: 10px 98px 10px 15px;
+    }
+  }
+}
