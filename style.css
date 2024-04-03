@@ -10,7 +10,9 @@ body {
   margin: 0 auto;
 }
 
+/* --------- */
 /* Header Styles */
+/* --------- */
 
 header * {
   vertical-align: middle;
@@ -51,4 +53,152 @@ header * {
 
 #H-container > nav > ul > li > a:hover {
   color: #8490ff;
+}
+
+/* --------- */
+/* Main style */
+/* --------- */
+
+#identify {
+  height: 680px;
+  background-color: #f9f9ff;
+}
+
+#I-container {
+  width: 1155px;
+  margin: 0 auto;
+  height: 680px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#right-identify {
+  width: 550px;
+}
+
+#left-identify {
+  width: 550px;
+  display: flex;
+  margin-bottom: -66px;
+}
+
+main h6 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+#right-identify h1 {
+  margin: 20px 10px;
+  font-size: 60px;
+}
+
+main p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.32rem;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+main a {
+  font-size: 14px;
+  background-color: #8490ff;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+#about {
+  height: 500px;
+  padding-top: 120px;
+}
+
+#about-container {
+  width: 1155px;
+  margin: 0 auto;
+  height: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#personal-details {
+  width: 480px;
+  height: 350px;
+}
+
+#about img {
+  width: 540px;
+  height: 380px;
+}
+
+#about h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+#services {
+  height: 890px;
+}
+
+#services-content {
+  width: 1155px;
+  margin: 0 auto;
+  height: 680px;
+  /* background-color: black; */
+}
+
+#services-title {
+  height: 114px;
+  width: 570px;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#top-services {
+  height: 255px;
+  /*background-color: antiquewhite;*/
+}
+
+#bot-services {
+  height: 280px;
+}
+
+.items-top {
+  display: inline-block;
+  width: 380px;
+  height: 253px;
+  /*background-color: rgb(219, 208, 208);*/
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items-bot {
+  display: inline-block;
+  width: 380px;
+  height: 270px;
+  /*background-color: rgb(255, 0, 0);*/
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#web-design {
+  width: 380px;
+  height: 190px;
+  margin-top: 60px;
+  /*background-color: darkseagreen;*/
 }
