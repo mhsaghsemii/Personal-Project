@@ -1,4 +1,8 @@
 /* General Style */
+a {
+  text-decoration: none;
+  color: black;
+}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -38,9 +42,30 @@ header * {
 }
 
 #H-container > nav > ul > li {
+  position: relative;
   display: inline-block;
   margin-left: 7px;
   height: 20px;
+}
+
+#H-container > nav > ul > li > ul > li {
+  height: 30px;
+  list-style-type: none;
+  background-color: white;
+}
+
+#H-container > nav > ul > li > ul {
+  position: absolute;
+  right: 0;
+  top: 229%;
+  width: max-content;
+  display: none;
+  height: 20px;
+}
+
+#H-container > nav > ul > li > ul > li > a {
+  padding: 10px 90px 10px 10px;
+  font-size: 12px;
 }
 
 #H-container > nav > ul > li > a {
@@ -53,6 +78,14 @@ header * {
 
 #H-container > nav > ul > li > a:hover {
   color: #8490ff;
+}
+
+#H-container > nav > ul > li > a:visited {
+  color: #8490ff;
+}
+
+#H-container > nav > ul > li:hover > ul {
+  display: flex;
 }
 
 /* --------- */
