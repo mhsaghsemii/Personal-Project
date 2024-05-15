@@ -172,3 +172,52 @@ header {
     }
   }
 }
+
+#about-me {
+  padding-bottom: 20px;
+
+  .container > #details {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > div {
+      margin-left: 50px;
+      > h6 {
+        color: #222222;
+        font-size: 14px;
+        margin-bottom: 30px;
+        margin-top: 0;
+      }
+
+      > h1 {
+        margin: 0 0 30px 0;
+        font-size: 36px;
+        line-height: 1.2em;
+      }
+
+      > p {
+        margin-bottom: 30px;
+        color: #777777;
+        line-height: 1.625em;
+      }
+
+      > a {
+        padding: 10px 30px;
+        color: white;
+        background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+
+    > div {
+      margin: 0 58px 0 0;
+      img {
+        width: 540px;
+        height: 383px;
+      }
+    }
+  }
+}
