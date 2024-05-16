@@ -121,7 +121,7 @@ header {
   }
 }
 
-/* SECTION 1 STYLES */
+/* MAIN STYLES */
 
 #banner {
   background-color: #f9f9ff;
@@ -217,6 +217,56 @@ header {
       img {
         width: 540px;
         height: 383px;
+      }
+    }
+  }
+}
+
+#services {
+  > div {
+    > h1 {
+      margin-bottom: 10px;
+      font-size: 36px;
+      color: #222222;
+      line-height: 1.2em;
+      text-align: center;
+    }
+
+    > p {
+      font-size: 14px;
+      color: #777777;
+      line-height: 1.625em;
+      text-align: center;
+    }
+  }
+
+  > #services-items {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    > div {
+      width: 338px;
+      margin-top: 60px;
+      padding: 0 15px 0 15px;
+
+      > h4 {
+        font-size: 18px;
+        color: #222222;
+        line-height: 1.2em;
+      }
+
+      > a:hover {
+        color: #8490ff;
+      }
+
+      > p {
+        font-size: 14px;
+        color: #777777;
+        line-height: 1.625em;
+      }
+
+      > span {
       }
     }
   }
