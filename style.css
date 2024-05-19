@@ -20,6 +20,7 @@ body {
 
 header {
   position: sticky;
+  top: 0;
   box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
 
   .container {
@@ -267,6 +268,34 @@ header {
       }
 
       > span {
+      }
+    }
+  }
+}
+
+#resume {
+  margin-top: 120px;
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  padding: 110px 0;
+  text-align: center;
+  color: white;
+  line-height: 1.625em;
+  > .container {
+    display: flex;
+
+    > div {
+      width: 25%;
+
+      > h1 {
+        margin: 0;
+        line-height: 1.2rem;
+        font-size: 40px;
+        font-weight: bold;
+      }
+
+      > p {
+        font-size: 14px;
+        margin-top: 10px;
       }
     }
   }
