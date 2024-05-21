@@ -460,10 +460,19 @@ header {
       > div {
         display: flex;
         flex-wrap: wrap;
+
+        > .account-type:hover {
+          color: white;
+          cursor: pointer;
+          transform: scale(1.1);
+          background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+        }
         .account-type {
+          transition-duration: 0.3s;
           padding: 40px 10px;
           width: 257px;
           background-color: #f9f9ff;
+
           > div {
             > h1 {
               margin-top: 0;
@@ -510,9 +519,12 @@ header {
               list-style: none;
 
               > li {
+                color: #777777;
+
                 font-size: 14px;
-                padding: 10px 0;
+                padding: 12px 0;
                 border-top: 1px solid #eee;
+                border-bottom: 1px solid #eee;
               }
             }
           }
