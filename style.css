@@ -646,3 +646,20 @@ header {
     }
   }
 }
+
+#brand {
+  padding: 90px 0;
+  background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+  > .container {
+    > #brand-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      > div > a > img {
+        margin-left: 100px;
+      }
+    }
+  }
+}
+
+
