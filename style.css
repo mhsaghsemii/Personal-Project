@@ -662,4 +662,70 @@ header {
   }
 }
 
+/* FOOTER STYLES */
 
+footer {
+  background-color: #04091e;
+  padding: 100px 0;
+  > .container {
+    display: flex;
+    flex-wrap: nowrap;
+
+    > div {
+      max-width: 41%;
+      margin-left: 20px;
+      > h4 {
+        color: #fff;
+        margin-bottom: 25px;
+        font-size: 18px;
+      }
+
+      > p {
+        color: #777777;
+        margin-bottom: 1rem;
+        margin-top: 0;
+
+        > a {
+          color: #8490ff;
+        }
+      }
+      > div {
+        display: flex;
+
+        > div > input {
+          width: 395px;
+          padding: 15px 20px;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+        }
+
+        > div > button {
+          background-color: #8490ff;
+          border: none;
+          color: white;
+          padding: 14px 18px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          cursor: pointer;
+        }
+
+        > div {
+          display: flex;
+
+          > a > li {
+            list-style-type: none;
+            margin-top: 12px;
+            > img {
+              width: 16px;
+              height: 16px;
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
